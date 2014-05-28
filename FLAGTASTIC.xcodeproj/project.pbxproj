@@ -21,6 +21,11 @@
 		02AB3E531934935F00F734A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AB3E351934935F00F734A9 /* UIKit.framework */; };
 		02AB3E5B1934935F00F734A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02AB3E591934935F00F734A9 /* InfoPlist.strings */; };
 		02AB3E5D1934935F00F734A9 /* FLAGTASTICTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB3E5C1934935F00F734A9 /* FLAGTASTICTests.m */; };
+		02D5A0C119349CA50013EA7C /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D5A0C019349CA50013EA7C /* Map.png */; };
+		02D5A0C619349F9E0013EA7C /* MapBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D5A0C319349F9E0013EA7C /* MapBlue.png */; };
+		02D5A0C719349F9E0013EA7C /* MapRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D5A0C419349F9E0013EA7C /* MapRed.png */; };
+		02D5A0C819349F9E0013EA7C /* MapYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D5A0C519349F9E0013EA7C /* MapYellow.png */; };
+		02D5A0CC19349FC00013EA7C /* MAPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5A0CB19349FC00013EA7C /* MAPVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		02AB3E581934935F00F734A9 /* FLAGTASTICTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLAGTASTICTests-Info.plist"; sourceTree = "<group>"; };
 		02AB3E5A1934935F00F734A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		02AB3E5C1934935F00F734A9 /* FLAGTASTICTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAGTASTICTests.m; sourceTree = "<group>"; };
+		02D5A0C019349CA50013EA7C /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		02D5A0C319349F9E0013EA7C /* MapBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapBlue.png; sourceTree = "<group>"; };
+		02D5A0C419349F9E0013EA7C /* MapRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapRed.png; sourceTree = "<group>"; };
+		02D5A0C519349F9E0013EA7C /* MapYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapYellow.png; sourceTree = "<group>"; };
+		02D5A0CA19349FC00013EA7C /* MAPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPVC.h; sourceTree = "<group>"; };
+		02D5A0CB19349FC00013EA7C /* MAPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,8 @@
 		02AB3E371934935F00F734A9 /* FLAGTASTIC */ = {
 			isa = PBXGroup;
 			children = (
+				02D5A0C919349FAB0013EA7C /* VCs */,
+				02D5A0C219349CA80013EA7C /* Images */,
 				02AB3E401934935F00F734A9 /* AppDelegate.h */,
 				02AB3E411934935F00F734A9 /* AppDelegate.m */,
 				02AB3E431934935F00F734A9 /* Main.storyboard */,
@@ -150,6 +163,26 @@
 				02AB3E591934935F00F734A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02D5A0C219349CA80013EA7C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				02D5A0C319349F9E0013EA7C /* MapBlue.png */,
+				02D5A0C419349F9E0013EA7C /* MapRed.png */,
+				02D5A0C519349F9E0013EA7C /* MapYellow.png */,
+				02D5A0C019349CA50013EA7C /* Map.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		02D5A0C919349FAB0013EA7C /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				02D5A0CA19349FC00013EA7C /* MAPVC.h */,
+				02D5A0CB19349FC00013EA7C /* MAPVC.m */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D5A0C119349CA50013EA7C /* Map.png in Resources */,
 				02AB3E4A1934935F00F734A9 /* Images.xcassets in Resources */,
+				02D5A0C619349F9E0013EA7C /* MapBlue.png in Resources */,
 				02AB3E3C1934935F00F734A9 /* InfoPlist.strings in Resources */,
+				02D5A0C819349F9E0013EA7C /* MapYellow.png in Resources */,
+				02D5A0C719349F9E0013EA7C /* MapRed.png in Resources */,
 				02AB3E451934935F00F734A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AB3E481934935F00F734A9 /* ViewController.m in Sources */,
+				02D5A0CC19349FC00013EA7C /* MAPVC.m in Sources */,
 				02AB3E421934935F00F734A9 /* AppDelegate.m in Sources */,
 				02AB3E3E1934935F00F734A9 /* main.m in Sources */,
 			);
@@ -456,6 +494,7 @@
 				02AB3E621934935F00F734A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02AB3E631934935F00F734A9 /* Build configuration list for PBXNativeTarget "FLAGTASTICTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +503,7 @@
 				02AB3E651934935F00F734A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
